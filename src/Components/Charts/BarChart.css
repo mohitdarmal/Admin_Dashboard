@@ -1,0 +1,28 @@
+.bar_chart_sec{
+    width: 300px;
+}
+
+@media screen and (max-width:480px){
+    .mobile_half_width{max-width: 50%; width: 50%;}
+    .card_box_sec .col{margin-bottom: 25px;}
+    .card_box h5{font-size: 23px;}
+}
+.bar_chart_sec{
+    width: 100%;
+}
+@media screen and (max-width:767px){
+    .bar_chart_sec{
+        height:250px !important;
+    }
+}
+
+@media screen and (max-width:1023px){
+}
+
+@media screen and (min-width:1024px){
+    .bar_chart_sec{
+        width: 100%;
+        height: 350px;
+    }
+}
+
